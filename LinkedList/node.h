@@ -5,6 +5,6 @@ class Node {
 
         Node(int i) {
             info = i;
-            link =- NULL;
+            link = NULL;
         }
 };
