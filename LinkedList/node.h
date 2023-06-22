@@ -1,9 +1,11 @@
-class Node {
+class Node 
+{
     public:
         int info;
         Node *link;
 
-        Node(int i) {
+        Node(int i) 
+        {
             info = i;
             link = NULL;
         }

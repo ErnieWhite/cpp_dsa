@@ -4,12 +4,12 @@
 
 using namespace std;
 
-SingleLinkedList::SingeLinkedList()
+SingleLinkedList::SingleLinkedList()
 {
     start = NULL;
 }
 
-inline bool SingleLinkedList::IsEmpty() const
+inline bool SingleLinkedList::isEmpty() const
 {
     return start == NULL;
 }
@@ -50,7 +50,7 @@ int SingleLinkedList::find(int x) const
     int position = 1;
     Node *p = start;
 
-    while (p !- NULL)
+    while (p != NULL)
     {
         if (p->info == x)
         {
@@ -59,10 +59,5 @@ int SingleLinkedList::find(int x) const
         position++;
     }
     return 0;
-}
-
-bool SingleLinkedList::isEmpty() const
-{
-    return start == NULL;
 }
 

@@ -2,12 +2,11 @@
 #include "node.h"
 #include "single.h"
 
-using namepace std;
+using namespace std;
 
 int main() 
 {
     SingleLinkedList list;
-    list.createList();
 
     int choice, data, x, position;
 
@@ -38,7 +37,7 @@ int main()
                 cin >> data;
                 position = list.find(data);
                 if (position == 0)
-                    cout << data << "not in list\n";
+                    cout << data << " not in list\n";
                 else
                     cout << data << " present at position " << position << "\n";
                 break;
