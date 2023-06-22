@@ -10,6 +10,6 @@ class SingleLinkedList
         int countNodes() const;
         int find(int data) const;
    };
-
+}
 
         
